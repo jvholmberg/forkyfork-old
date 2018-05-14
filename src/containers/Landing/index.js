@@ -22,9 +22,9 @@ class Landing extends Component {
         <Container fluid>
           <Row>
             <Column>
-            <Alert type='warning' className='text-center'>
-              This site is currently undergoing construction
-            </Alert>
+              <Alert type='warning' className='text-center'>
+                This site is currently undergoing construction
+              </Alert>
             </Column>
           </Row>
         </Container>

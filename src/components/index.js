@@ -6,6 +6,7 @@ import Container from './Container';
 import Icon from './Icon';
 import Jumbotron from './Jumbotron';
 import Logo from './Logo';
+import Navbar from './Navbar';
 import Row from './Row';
 
 export {
@@ -17,5 +18,6 @@ export {
   Icon,
   Jumbotron,
   Logo,
+  Navbar,
   Row,
 };
