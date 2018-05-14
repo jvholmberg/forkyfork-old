@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
+
+import './reset.css';
 import './style.css';
+
+import Landing from '../Landing';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div id='heading'>
-          <div id='logo'>forkyfork</div>
-          <div id='tagline'>
-            Contact me at <a href='https://www.linkedin.com/in/johan-holmberg-70044bb6/'>LinkedIn</a></div>
-        </div>
+      <div className="App app">
+        <Landing />
       </div>
     );
   }
