@@ -1,0 +1,18 @@
+.c-fabgroup-wrapper {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.c-fabgroup-action {
+  float: right;
+}
+.c-fabgroup-content.c-open,
+.c-fabgroup-content.c-open * {
+  display: block;
+  float: right;
+}
+.c-fabgroup-content.c-closed,
+.c-fabgroup-content.c-closed * {
+  display: none;
+}

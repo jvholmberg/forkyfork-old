@@ -1,0 +1,63 @@
+
+
+/* Box */
+.c-tooltip-wrapper {
+  position: absolute;
+
+}
+.c-tooltip-wrapper.c-top {
+  left: 100%;
+  top: 0;
+
+}
+.c-tooltip-wrapper.c-right {
+
+}
+.c-tooltip-wrapper.c-bottom {
+
+}
+.c-tooltip-wrapper.c-left {
+
+}
+
+.c-tooltip-text {
+  display: inline-block !important;
+  position: relative;
+  padding: 0 .5rem;
+  width: max-content;
+  line-height: 1.8rem;
+  color: #fff;
+  background: #33333d;
+  /* margin: 1.25rem 0;
+  left: 100%;
+  top: 0; */
+}
+
+/* Arrow */
+.c-tooltip-arrow {
+  display: inline-block !important;
+  width: 0;
+  height: 0;
+}
+.c-tooltip-wrapper.c-top .c-tooltip-arrow {
+  border-left: .5rem solid transparent;
+  border-right: .5rem solid transparent;
+  border-top: .5rem solid #33333d;
+}
+.c-tooltip-wrapper.c-right .c-tooltip-arrow {
+  line-height: 1.8rem;
+  border-top: .5rem solid transparent;
+  border-bottom: .5rem solid transparent;
+  border-right: .5rem solid #33333d;
+
+}
+.c-tooltip-wrapper.c-bottom .c-tooltip-arrow {
+  border-left: .5rem solid transparent;
+  border-right: .5rem solid transparent;
+  border-bottom: .5rem solid #33333d;
+}
+.c-tooltip-wrapper.c-left .c-tooltip-arrow {
+  border-top: .5rem solid transparent;
+  border-bottom: .5rem solid transparent;
+  border-left: .5rem solid #33333d;
+}

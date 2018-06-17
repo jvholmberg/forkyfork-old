@@ -1,0 +1,32 @@
+.c-navstrip-wrapper.c-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw
+}
+.c-navstrip-wrapper.c-right {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh
+}
+.c-navstrip-wrapper.c-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw
+}
+.c-navstrip-wrapper.c-left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh
+}
+
+.c-navstrip-content.c-open,
+.c-navstrip-content.c-open * {
+  display: block;
+}
+.c-navstrip-content.c-closed {
+  display: none;
+}

@@ -1,0 +1,48 @@
+.c-hero-wrapper {
+  display: table;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.c-hero-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+.c-hero-children {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+.c-hero-children * {
+  color: #33333d;
+}
+.c-hero-children.negative * {
+  color: #fff;
+}
+
+.c-hero-children h1{
+  font-size: 5rem;
+  font-weight: 600;
+}
+.c-hero-children h2 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+.c-hero-children h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.c-hero-children h4 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.c-hero-children p,
+.c-hero-children span {
+  font-size: 2rem;
+}
